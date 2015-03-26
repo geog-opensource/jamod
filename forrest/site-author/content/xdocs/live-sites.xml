@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN"
+"http://forrest.apache.org/dtd/document-v20.dtd">
+<document>
+  <header>
+    <title>Examples Built-With-Forrest</title>
+  </header>
+  <body>
+    <p>
+      These are some of the sites that were created using Apache Forrest
+      technology.
+    </p>
+    <p>
+      If you want your site added to the list, then please send a request to the
+      <a href="site:mail-lists">mailing lists</a> or to the
+      <a href="site:bugs">Issue tracker</a>. Tell us the URL, Name, and
+      catch-phrase.
+    </p>
+    <section id="skinned">
+      <title>Skinned Sites</title>
+      <p>
+        These sites use the skinning system that was part of all releases up to
+        and including 0.7 release. This system is expected to be deprecated soon
+        in favour of a more flexible system called Dispatcher. See the next
+        section for some examples of such sites.
+      </p>
+      <ul>
+        <li><a href="ext:xml.apache.org">Apache XML Project (xml.apache.org)</a></li>
+        <li><a href="ext:forrest">Apache Forrest</a></li>
+        <li><a href="site:references/cocoon">Apache Cocoon</a></li>
+        <li><a href="site:references/lenya">Apache Lenya</a></li>
+        <li><a href="http://aft.sourceforge.net/" rel="nofollow">Anteater</a> - Ant-based functional testing</li>
+        <li><a href="http://chaperon.sourceforge.net" rel="nofollow">Chaperon</a> - text parser</li>
+        <li>Some <a href="http://www.apache.org/~coar/people.html">Apache
+        Committer</a> personal pages</li>
+        <li><a href="ext:fop">Apache FOP</a>
+        (Formatting Objects Processor)</li>
+        <li><a href="http://www.dream-models.com/" rel="nofollow">Dream Models</a>
+        - gather information about electric radio controlled helicopters</li>
+        <li><a href="http://people.apache.org/~vgritsenko/stats/">Apache Stats (Vadim's Home Page)</a> - some web statistics</li>
+        <li><a href="http://www.indexgeo.net/zalarm/" rel="nofollow">Z-alarm - Ensure
+        information server integrity</a></li>
+        <li><a href="http://jakarta.apache.org/poi/">Apache Jakarta POI</a></li>
+        <li><a href="http://terra-intl.com/" rel="nofollow">Terra-International, Inc. (Japanese)</a></li>
+        <li><a href="http://jakarta.terra-intl.com/poi/" rel="nofollow">Apache Jakarta POI (Japanese Translation)</a></li>
+        <li><a href="http://xfp.sourceforge.net/" rel="nofollow">XFP</a> - eXtensible Filtering Pipelines</li>
+        <li><a href="http://ws.apache.org/">Apache Web Services Project</a></li>
+        <li><a href="http://ws.apache.org/wsif/">Apache WSIF Project</a> - Web Services Invocation Framework</li>
+        <li><a href="http://xml.apache.org/xmlbeans/">Apache XMLBeans</a> - An XML-Java binding tool</li>
+        <li><a href="http://druid.sourceforge.net/" rel="nofollow">Druid: The Database Manager</a> - GUI tool to create databases (GPL)</li>
+        <li><a href="http://ws.apache.org/axis/">Apache Axis</a> - an implementation of the SOAP ("Simple Object Access Protocol")</li>
+        <li><a href="http://ws.apache.org/soap/">Apache SOAP</a> - an implementation of the SOAP submission</li>
+        <li><a href="http://cese.sourceforge.net/" rel="nofollow">Cell Electrophysiology Simulation Environment (CESE)</a>
+        - a framework for computational electrophysiological simulations</li>
+        <li><a href="ext:gump">Apache Gump</a></li>
+        <li><a href="http://www.agssa.net/" rel="nofollow">AG Software</a></li>
+        <li><a href="http://jdbc.postgresql.org/" rel="nofollow">PostgreSQL JDBC Driver</a></li>
+        <li><a href="http://www.sbbi.net/" rel="nofollow">SuperBonBon Industries</a></li>
+        <li><a href="http://www.softoutfit.com/" rel="nofollow">Ca&#241;ones Software Outfitter</a></li>
+        <li><a href="http://www.cirquedigital.com/" rel="nofollow">Cirque|Digital, LLC</a></li>
+        <li><a href="http://db.apache.org/derby/">Apache Derby</a>
+        - a zero admin, embeddable java rdbms</li>
+        <li><a href="http://www.cccp-project.org/" rel="nofollow">CCCP Common Clan Portal</a>
+         - Primarily a J2EE website application for game clans</li>
+        <li><a href="http://www.divvun.no/" rel="nofollow">S&aacute;mi proofing tools development project</a></li>
+        <li><a href="http://www.risten.no/" rel="nofollow">S&aacute;mi terminology portal</a> 
+        - (background documentation uses Forrest, the main page uses eXist+Cocoon)</li>
+        <li><a href="http://uml2svg.sourceforge.net/" rel="nofollow">uml2svg</a>
+        - an
+        XSLT-based tool for converting XMI-compliant UML Diagrams into
+        SVG</li>
+        <li><a href="http://www.j2world.net/" rel="nofollow">j2world</a>
+              - smart solutions for a mobile world</li>
+        <li><a href="http://j2ee.by.ru/" rel="nofollow">J2EE Quick Start</a></li>
+        <li><a href="http://javaworkshop.sourceforge.net" rel="nofollow">Java Workshop</a> online web book - show cases some of the tools that every java developer should have in his / her toolbox </li>
+        <li><a href="http://g11ntoolkit.sourceforge.net/" rel="nofollow">Globalization Tool Kit</a>
+        - Introduction to the G11NToolKit.</li>
+        <li><a href="http://barcode4j.sourceforge.net/krysalis-barcode.html" rel="nofollow">Barcode4J</a>
+        - a flexible generator for barcodes written in Java.</li>
+        <li><a href="http://www.primordion.com/Xholon/" rel="nofollow">Xholon</a>
+        - A Java framework for developing UML 2.0 and other event-driven systems.
+      </li>
+        <li><a href="http://www.primordion.com/Cellontro/" rel="nofollow">Cellontro</a>
+        - Modeling and simulation of cells, other biological entities, and
+        biochemical networks, using Xholon.
+      </li>
+        <li><a href="http://apfw.sourceforge.net/" rel="nofollow">Apparatus Framework</a> -
+          An object-oriented software framework written in C++ for
+          embedded applications.</li>
+        <li><a href="http://www.skiclub-troisdorf.de/" rel="nofollow">Skiclub 
+      Troisdorf-Sieglar e.V.</a> - the skiclub aims to provide ski related
+      activities and social events for our members in and around Troisdorf area 
+      (near Cologne and Bonn).</li>
+        <li><a href="http://scriptella.javaforge.com" rel="nofollow">Scriptella ETL</a> - Open source ETL (Extract-Transform-Load) and script execution tool. </li>
+        <li><a href="http://antdepo.org/" rel="nofollow">antdepo.org</a> - Open Source automation harness built on top of Apache Ant</li>
+        <li><a href="http://stephane.galles.free.fr/jagraffe/english" rel="nofollow">JAgraffe</a> - Quickly send scaled down
+pictures by email only via DnD.</li>
+        <li><a href="http://incubator.apache.org/hama">Apache Hama</a> - a parallel matrix computational package based on Hadoop.</li>
+      <li><a href="http://www.roughbros.com" rel="nofollow">Rough Brothers, Inc.</a>
+        - Greenhouse Design and Greenhouse Manufacturing, Conservatories and Retail Garden Centers</li>
+      <li><a href="http://kirtlandflightcenter.org/" rel="nofollow">Kirtland Flight Center</a>
+        - non-profit pilot training club.</li>
+<!--  <li><a href="" rel="nofollow"></a></li> -->
+      </ul>
+    </section>
+    <section id="dispatcher">
+      <title>Sites using upcoming Dispatcher</title>
+      <p>
+        The skinning system in versions of Forrest up to and including 0.7 was
+        great, however, it proved to be too inflexible. Soon we will have brand
+        new system called Dispatcher. The following sites are examples.
+      </p>
+      <note>
+        The Dispatcher is still in development. Please
+        only use them if you know what you are doing. We expect to include them
+        in an upcoming release at which point we will be encouraging their use.
+      </note>
+      <ul>
+        <li><a href="http://lenya.zones.apache.org/">Apache Lenya 
+          Zone</a> - this site is using v2 with some nice demonstrations of 
+          new features like the theme switcher.</li>
+        <li><a href="http://www.target-x.de/" rel="nofollow">tarGET-X - know the unknown</a> 
+          by thorsten.</li>
+        <li><a href="http://www.criaturitas.org/" rel="nofollow">CDK - club deportivo kriaturitas</a>
+          - Website of the basketball club CDK located in Sevilla, España.</li>
+        <li><a href="http://www.varietee.com.au/" rel="nofollow">varietee&trade; adjustable golf practice platforms</a></li>
+        <li><a href="http://simal.oss-watch.ac.uk" rel="nofollow">Simal</a> - an RDF/XML project registry framework.</li>
+        <li><a href="http://jrds.sourceforge.net/" rel="nofollow">jrds</a> - a cacti like tools written in java</li>
+        <li><a href="http://www.vitables.org/" rel="nofollow">ViTables</a> - a PyTables and HDF5 browser written in Python</li>
+<!--  <li><a href="" rel="nofollow"></a></li> -->
+      </ul>
+    </section>
+  </body>
+</document>

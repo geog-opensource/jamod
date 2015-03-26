@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+ contributor license agreements.  See the NOTICE file distributed with
+ this work for additional information regarding copyright ownership.
+ The ASF licenses this file to You under the Apache License, Version 2.0
+ (the "License"); you may not use this file except in compliance with
+ the License.  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V1.2//EN" "http://forrest.apache.org/dtd/document-v12.dtd">
+<document>
+  <header>
+    <title>ForrestBar - Firefox toolbar to ease navigation and search of Forrest resources</title>
+  </header>
+  <body>
+    <section id="introduction">
+      <title>What is the ForrestBar?</title>
+      <p>
+        The ForrestBar is a toolbar extension made for the
+        <link href="http://www.mozilla.org/products/mozilla1.x/">Mozilla</link>
+        and <link href="http://www.mozilla.org/products/firefox/">Firefox</link>
+        browsers that eases the navigation of online Apache Forrest resources
+        (including local instances of Forrest running on jetty or as a webapp),
+        Apache links and other Apache projects.
+        It also provides targetted searches for Forrest resources, e.g. search
+        mail lists and issue tracker.
+      </p>
+      <p>
+        Navigation and developer assistance for Apache Forrest-related
+        documentation frameworks.
+      </p>
+    </section>
+    <section id="install">
+      <title>Installing the ForrestBar</title>
+      <p>
+        ForrestBar is currently compatible with Firefox 0.9 - 2.0+ and Mozilla
+        1.x browsers.
+      </p>
+      <p>
+        Select this link to <link href="forrestbar.xpi">install</link>
+        ForrestBar.
+      </p>
+      <p>
+        If the extension does not automatically install for you when clicking on
+        the link, download ForrestBar by right clicking on the link and select
+        Save As... to save the file to your computer. To install, simply drag
+        the downloaded .xpi file into your browser's window and drop it.
+      </p>
+      <p>
+        To build (and perhaps enhance) ForrestBar locally rather than downloading, go to
+        FORREST_HOME/tools/forrestbar and follow the README.txt document.
+        The .xpi file will be built for
+        you in the FORREST_HOME/tools/forrestbar/build directory. You can then
+        install it by dragging and dropping as indicated above, or open the file.
+      </p>
+    </section>
+    <section id="use">
+      <title>Using the ForrestBar</title>
+      <p>
+        ForrestBar has the following features.
+      </p>
+      <section>
+        <title>Forrest menu</title>
+        <p>
+          This menu gives you direct access to various information about the
+          Forrest project such as :
+        </p>
+        <ul>
+          <li>The Forrest Site</li>
+          <li>The project Subversion repository</li>
+          <li>The project Issues manager</li>
+          <li>The mailing lists...</li>
+        </ul>
+        <p>
+          The last choice <em>Local Forrest</em> is a direct access to the
+          dynamic forrest site when you use <code>'forrest run'</code> mode.
+        </p>
+      </section>
+      <section>
+        <title>Apache menu</title>
+        <p>
+          This menu gives you direct access to several information about the
+          Apache Software Foundation.
+        </p>
+      </section>
+      <section>
+        <title>Ref menu</title>
+        <p>
+          This menu gives you direct access to references and several documentation of
+          components used in the Forrest project such as :
+        </p>
+        <ul>
+          <li>The Apache Ant documentation</li>
+          <li>The Apache Cocoon documentation</li>
+          <li>The Subversion Book</li>
+        </ul>
+      </section>
+      <section>
+        <title>Dev menu</title>
+        <warning>
+          This menu needs the <em>Local Forrest</em> site to be launched, i.e.
+          <code>'forrest run'</code> mode.
+        </warning>
+        <p>
+          This menu provides various internal Forrest data for developers.
+        </p>
+        <ul>
+          <li>Access to "abs-menulinks" which is the internal representation
+            of the "site.xml" navigation configuration. See
+            <link href="site:linking/menu_generation">explanation</link>.
+            Like the <link href="site:faq/linkmap">Linkmap</link>, it assists
+            with development and <link href="site:procedures/forrest-dev/debug">debugging</link>.
+          </li>
+          <li>Access to the Cocoon Profiler which shows summary information about sitemap processing.
+            See configuration <link href="site:debug-cocoon-profiler">notes</link>.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <title>Dispatcher Dev menu</title>
+        <warning>
+          This menu needs the <em>Local Forrest</em> site to be launched, i.e.
+          <code>'forrest run'</code> mode.
+          The site needs to be enabled to use the Dispatcher.
+        </warning>
+        <section>
+          <title>Internal formats section</title>
+          <p>
+            These options give you direct access to dispatcher internal xml
+            formats of the current page such as :
+          </p>
+          <ul>
+            <li>The Intermediate format</li>
+            <li>The Body</li>
+            <li>The Table of Content</li>
+            <li>...</li>
+          </ul>
+          <p>
+            These accesses are very interesting in development phase to display
+            - in xml format - the content of any dispatcher page.
+          </p>
+        </section>
+        <section>
+          <title>Structurer section</title>
+          <p>
+            This option gives you direct access to the structurer which is in
+            charge to generate the current page.
+          </p>
+        </section>
+        <section>
+          <title>Contracts section</title>
+          <p>
+            These options give you direct access to an automatically generated
+            page which displays the documentation of the available contracts
+            that you can use.
+          </p>
+          <p>
+            The <em>ls.contracts</em> option displays the list of standard
+            contracts available whereas the <em>ls.contracts.project</em> only
+            displays the list of contracts specific to the project.
+          </p>
+        </section>
+      </section>
+      <section>
+        <title>Search Archives menu</title>
+        <p>
+          This menu lets you search in different Forrest related archives or
+          sites such as :
+        </p>
+        <ul>
+          <li>The mail (User or Devs) archives lists</li>
+          <li>The commits in subversion repository</li>
+          <li>The Forrest site</li>
+          <li>The Jira Issues - site which manages Forrest issues</li>
+        </ul>
+        <p>
+          To perfom a search in one of these sites, just enter a keyword in the
+          Search field and select the site you want to search in in the Search
+          menu.
+        </p>
+        <note label="Jira Issues">
+          If you enter the number of a Forrest issue you are working on (let's
+          say FOR-962) the search in the JIRA Issues site will directly access to
+          the Issue properties page.
+        </note>
+        <note label="Subversion revisions">
+          Subversion revision gives you a direct access to the revision you
+          entered in the search field (let's say 521779).
+        </note>
+        <note label="Mail Message-Id">
+          This is very useful to obtain a URL to reference a previous
+          discussion. Searches for a Message-Id at the Gmane.org service.
+          Select "Subject" to obtain a "thread-and-focus" URL.
+        </note>
+      </section>
+      <section>
+        <title>Search Dispatcher menu</title>
+        <warning>
+          This menu needs the <em>Local Forrest</em> site to be launched, i.e.
+          <code>'forrest run'</code> mode.
+          The site needs to be enabled to use the Dispatcher.
+        </warning>
+        <p>
+          This menu gives you direct access to Dispatcher contracts. You can access to html
+          or fo contract by entering the contract name in the search field and
+          selecting the corresponding <em>prepare</em> or <em>resolve</em>
+          option.
+        </p>
+        <p>
+          These accesses are very useful to check that the contract you are
+          working on is found by the dispatcher and is syntactically correct.
+        </p>
+      </section>
+    </section>
+    <section id="configure">
+      <title>Configuring the ForrestBar</title>
+      <p>
+        ForrestBar can be configured in order to change the <em>localhost</em>
+        and <em>port</em> used to connect to Forrest dynamic site, i.e. if you
+        have changed <code>'forrest run'</code> mode to use a
+        <link href="site:faq/run_port">different port</link>.
+      </p>
+      <p>
+        The defaults are <code>localhost:8888</code> and can be changed through
+        the Options window :
+      </p>
+      <p>
+        <img src="images/forrest-bar-options.png" alt="ForrestBar Options window"/>
+      </p>
+      <p>
+        Once you have entered the correct values for your installation, the
+        ForrestBar saves them in your browser user preferences so that they will
+        be used again next time you will start your browser.
+      </p>
+    </section>
+  </body>
+</document>
